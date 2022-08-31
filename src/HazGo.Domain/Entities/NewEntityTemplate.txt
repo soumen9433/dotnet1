@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace drop2go.Registration.Domain.Entities
+{
+    using drop2go.Registration.Domain.Interfaces;
+
+    public class NewEntityTemplate:  IAuditableEntity
+    {
+        //PK
+        public long Id { get; set; }
+
+        //Navigation Properties
+        
+
+        //Specific Properties
+        
+
+        //Auditable properties
+        public string CreatedBy { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime? UpdatedDate { get; set; }
+        public int StatusId { get; set; }
+    }
+}

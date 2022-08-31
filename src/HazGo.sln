@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HazGo.Domain", "HazGo.Domain\HazGo.Domain.csproj", "{3286071D-CE53-42C5-99D0-4FA47E80E45D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HazGo.Infrastructure", "HazGo.Infrastructure\HazGo.Infrastructure.csproj", "{A4481C45-3D0D-4605-81A1-27A220BF4E18}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HazGo.Application", "HazGo.Application\HazGo.Application.csproj", "{E00C31F6-0FD0-4190-AA5C-022EE1664473}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HazGo.Api", "HazGo.Api\HazGo.Api.csproj", "{50D6DB03-2476-4BD6-9982-80F2C7721768}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5F140B34-6E3D-41C5-AA08-C1226ECD02BB}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HazGo.BuildingBlocks.Core", "HazGo.BuildingBlocks.Core\HazGo.BuildingBlocks.Core.csproj", "{E1178D1D-9CD6-43F5-A17E-3437F2A502F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HazGo.BuildingBlocks.Peristence.EF", "HazGo.BuildingBlocks.Peristence\HazGo.BuildingBlocks.Peristence.EF.csproj", "{1A7E6856-A8C0-4FEA-901C-81F220A8F955}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HazGo.BuildingBlocks.Api", "HazGo.BuildingBlocks.Api\HazGo.BuildingBlocks.Api.csproj", "{D53EFE7A-346F-44F2-BC56-121CAEF1D1AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HazGo.Core", "HazGo.Core", "{E9445619-1E82-4F32-A6CA-BE967444FA96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HazGo.Messaging.RabbitMQ", "HazGo.Messaging.RabbitMQ\HazGo.Messaging.RabbitMQ.csproj", "{CA1BD2E6-F961-474D-B5E3-8C7F686D6CDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HazGo.Messaging.Abstraction", "HazGo.Messaging.Abstraction\HazGo.Messaging.Abstraction.csproj", "{F6EB0DFB-7D17-43B1-A2A8-CCD7C5F67F2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3286071D-CE53-42C5-99D0-4FA47E80E45D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3286071D-CE53-42C5-99D0-4FA47E80E45D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3286071D-CE53-42C5-99D0-4FA47E80E45D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3286071D-CE53-42C5-99D0-4FA47E80E45D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4481C45-3D0D-4605-81A1-27A220BF4E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4481C45-3D0D-4605-81A1-27A220BF4E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4481C45-3D0D-4605-81A1-27A220BF4E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4481C45-3D0D-4605-81A1-27A220BF4E18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E00C31F6-0FD0-4190-AA5C-022EE1664473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E00C31F6-0FD0-4190-AA5C-022EE1664473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E00C31F6-0FD0-4190-AA5C-022EE1664473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E00C31F6-0FD0-4190-AA5C-022EE1664473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50D6DB03-2476-4BD6-9982-80F2C7721768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D6DB03-2476-4BD6-9982-80F2C7721768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D6DB03-2476-4BD6-9982-80F2C7721768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D6DB03-2476-4BD6-9982-80F2C7721768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1178D1D-9CD6-43F5-A17E-3437F2A502F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1178D1D-9CD6-43F5-A17E-3437F2A502F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1178D1D-9CD6-43F5-A17E-3437F2A502F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1178D1D-9CD6-43F5-A17E-3437F2A502F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A7E6856-A8C0-4FEA-901C-81F220A8F955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A7E6856-A8C0-4FEA-901C-81F220A8F955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A7E6856-A8C0-4FEA-901C-81F220A8F955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A7E6856-A8C0-4FEA-901C-81F220A8F955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D53EFE7A-346F-44F2-BC56-121CAEF1D1AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D53EFE7A-346F-44F2-BC56-121CAEF1D1AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D53EFE7A-346F-44F2-BC56-121CAEF1D1AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D53EFE7A-346F-44F2-BC56-121CAEF1D1AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA1BD2E6-F961-474D-B5E3-8C7F686D6CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA1BD2E6-F961-474D-B5E3-8C7F686D6CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA1BD2E6-F961-474D-B5E3-8C7F686D6CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA1BD2E6-F961-474D-B5E3-8C7F686D6CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6EB0DFB-7D17-43B1-A2A8-CCD7C5F67F2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6EB0DFB-7D17-43B1-A2A8-CCD7C5F67F2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6EB0DFB-7D17-43B1-A2A8-CCD7C5F67F2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6EB0DFB-7D17-43B1-A2A8-CCD7C5F67F2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E1178D1D-9CD6-43F5-A17E-3437F2A502F8} = {E9445619-1E82-4F32-A6CA-BE967444FA96}
+		{1A7E6856-A8C0-4FEA-901C-81F220A8F955} = {E9445619-1E82-4F32-A6CA-BE967444FA96}
+		{D53EFE7A-346F-44F2-BC56-121CAEF1D1AC} = {E9445619-1E82-4F32-A6CA-BE967444FA96}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB7AA9DA-578A-473A-A0DE-15C42A9CE434}
+	EndGlobalSection
+EndGlobal

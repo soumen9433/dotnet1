@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Entities\NewEntityTemplate.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HazGo.BuildingBlocks.Core\HazGo.BuildingBlocks.Core.csproj" />
+    <ProjectReference Include="..\HazGo.BuildingBlocks.Peristence\HazGo.BuildingBlocks.Peristence.EF.csproj" />
+  </ItemGroup>
+
+</Project>
